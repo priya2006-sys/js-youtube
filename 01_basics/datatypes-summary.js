@@ -23,7 +23,29 @@ let myObj= {
 }
 
 const myFunction= function(){
-    console.log("Hello World");
+    // 
+    
     
 }
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+// ******************************************************************
+
+// memory:: stack(primitive)=> copy of variable , heap(non-primitive)=> reference means original value
+let myYoutubeName = "priya-tiwari.com"
+let anotherName = myYoutubeName
+anotherName= "ChaiaurCode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne ={
+   email : "abc@gmail.com",
+   upi: "abc@123"
+}
+ let userTwo =userOne
+
+ console.log(userOne.email);
+  console.log(userTwo.email);
+ 
+
