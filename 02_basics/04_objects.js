@@ -42,12 +42,44 @@ const regularUser ={
 // user[1].email
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course ={
+    coursename: "JS youtube",
+    price: "999",
+    courseInstructor: "Priya"
+}
+
+//course.courseInstructor // usually we call this way
+
+const {courseInstructor:instructor} = course   // when we need to call multiple times // if we find and name large to write we can change it by using :within the same braces{}
+console.log(instructor);
 
 
 
+const navbar = ({company}) => {
+
+}
+navbar (company = "reliance")  // destructuring  objects in react
+
+//when we want to put our work on others head this i called API
+
+//JSON (it have name of the object if we don't declare the name of the object then it is treated as JSON)
+// {
+//     "name" :"Priya",
+//     "coursename": "JS in hindi"
+//     "price": "Free"
+// }
+
+//sometimes we get an API in the form of  arrays
+[
+    {},
+    {},
+    {}
+]
 
